@@ -1,0 +1,60 @@
+// Event handlers for scrolling to Work and About Me sections
+
+const checkButton = document.getElementById("check-btn");
+const WorkButton = document.getElementById("nav-work");
+const myWork = document.getElementById("my-work");
+const aboutMeButton = document.getElementById("nav-about")
+const learnButton = document.getElementById("learn-btn");
+const aboutMe = document.getElementById("about-me")
+
+checkButton.addEventListener("click", function() {
+    myWork.scrollIntoView({ behavior: "smooth" });
+});
+
+WorkButton.addEventListener("click", function() {
+    myWork.scrollIntoView({ behavior: "smooth" });
+});
+
+learnButton.addEventListener("click", function() {
+    aboutMe.scrollIntoView({ behavior: "smooth" });
+});
+
+aboutMeButton.addEventListener("click", function() {
+    aboutMe.scrollIntoView({ behavior: "smooth" });
+});
+
+// Event handlers for Connect
+const linkedInButtons = document.getElementsByClassName("linkedin-btn");
+const emailButtons = document.getElementsByClassName("email-btn");
+const gitHubButtons = document.getElementsByClassName("github-btn");
+
+for (const linkedInButton of linkedInButtons) {
+    linkedInButton.addEventListener("click", function() {
+        window.open("http://www.linkedin.com/in/andrea-lopez-1bb56321b", "_blank")
+    });
+}
+
+for (const emailButton of emailButtons) {
+    emailButton.addEventListener("click", function() {
+        window.open("mailto:apl2171@barnard.edu", "_blank");
+    });
+}
+
+for (const gitHubButton of gitHubButtons) {
+    gitHubButton.addEventListener("click", function() {
+        window.open("https://github.com/andreaalopez", "_blank");
+    });
+}
+
+// Event handlers for work experiences
+
+const divHacksImg = document.getElementById("divhacks");
+const divHacksCaption= document.getElementById("divhacks-caption");
+
+divHacksImg.addEventListener("click", function() {
+    window.location.href = "divhacks.html";
+});
+
+divHacksCaption.addEventListener("click", function() {
+    window.location.href = "divhacks.html";
+});

@@ -1,0 +1,401 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navigation */
+
+.navbar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-left {
+    flex: 1;
+}
+
+.navbar-andrea {
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar-andrea:hover {
+    cursor: pointer;
+    color: rgb(255, 33, 152);
+}
+
+.navbar-link:hover {
+    cursor: pointer;
+    color: rgb(255, 33, 152);
+}
+
+/* Home Page */
+
+.main {
+    display: flex;
+    gap: 16px;
+    justify-content: left;
+    align-items: center;
+    padding: 100px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    max-width: 50%;
+}
+  
+.grow1 {
+    flex: 1;
+    text-align: left;
+    font-size: larger;
+}
+
+.grow1 span {
+    font-weight: bold;
+}
+
+.barnard {
+    color:rgb(20, 49, 137);
+}
+
+.columbia {
+    color: rgb(143, 217, 255);
+}
+
+.oracle-span {
+    color: rgba(243, 14, 14, 0.967);
+}
+
+.cornell {
+    color: rgb(183, 24, 43);
+}
+
+.grow1 p {
+    font-size: larger;
+}
+
+h1 {
+    color: rgb(255, 33, 152);
+}
+
+h2 {
+    color: rgb(255, 33, 152);
+}
+
+.grow1 h1 {
+    font-size: 50px;
+}
+
+.connect-links-top {
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+    padding-top: 0px;
+}
+
+.go-to {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+}
+
+.grow2 {
+    flex: 1;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+/* My Work */
+
+.scroll-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    max-width: 15%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    border:0;
+}
+
+.scroll-btn:hover {
+    cursor: pointer;
+    background-color: rgb(255, 33, 152);
+    box-shadow: 0px 2px 4px rgb(251, 104, 182);
+    color: white;
+}
+
+.scroll-btn p {
+    margin-left: 10px;
+}
+
+#check-btn {
+    max-width: 15%;
+}
+
+#down-arrow {
+    max-height: 10px;
+    max-width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#my-work {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 75px;
+    max-width: 100%;
+}
+
+.grow-work {
+    flex: 1;
+    max-width: 500px;
+    min-width: 500px;
+    min-height: 290px;
+}
+
+.work-caption {
+    text-align: left;
+    font-size: medium;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.work-caption h3 {
+    margin-bottom: 5px;
+    color: rgb(163, 163, 163);
+}
+
+.work-caption h3 span {
+    color: rgb(255, 33, 152);
+}
+
+.work-caption p {
+    margin-top: 0;
+}
+
+.work-caption:hover {
+    cursor: pointer;
+}
+
+.work-img {
+    flex: 1;
+    padding: 1%;
+    text-align: center;
+    font-size: larger;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    width: 500px;
+    height: 290px;
+}
+
+.work-img:hover {
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgb(255, 33, 152);
+}
+
+#oracle {
+    background-image: url("images/oracle.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+#bttai {
+    background-image: url("images/bttai.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+#nlp {
+    background-image: url("images/columbia.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+#divhacks {
+    background-image: url("images/divhacks.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+/* About Me */
+
+.learn-btn {
+    max-width: 20%;
+}
+
+#about-me {
+    display: flex;
+    gap: 16px;
+    justify-content: left;
+    align-items: center;
+    padding: 100px;
+    padding-top: 50px;
+}
+  
+.grow-about {
+    flex: 1;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.grow-about span {
+    font-weight: bold;
+}
+
+.grow-headshot {
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+#headshot {
+    border-radius: 50%;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+/* Footer */
+
+.lets-connect {
+    max-width: 100%;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    font-size: 12px;
+}
+
+.connect-line {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.connect-links {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.connect-button {
+    height: 30px;
+    width: 30px;
+    border: none;
+    background: none;
+}
+
+.connect-button:hover {
+    cursor: pointer;
+}
+
+.linkedin-btn {
+    background-image: url("images/linkedin-black.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.email-btn {
+    background-image: url("images/email.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.github-btn {
+    background-image: url("images/github.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+/* DivHacks */
+
+.divhacks-content {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-top: 50px;
+}
+
+#divhacks-intro {
+    padding-bottom: 10px;
+}
+
+.grow4 h1 {
+    font-size: 75px;
+}
+
+.grow4 h2 {
+    font-size: 50px;
+}
+
+.grow4 {
+    flex: 1;
+    text-align: center;
+    font-size: larger;
+    max-width: 50%;
+}
+
+.divhacks-pics {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    max-width: 100%;
+}
+
+.dh-pic {
+    flex: 1;
+    max-width:100%;
+}
+
+#dh-best-beginner {
+    max-width: 100%;
+}
+
+#dh-best-wix {
+    max-width: 100%;
+}
+
+#dh-connect-pr {
+    max-width: 100%;
+}
