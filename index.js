@@ -5,7 +5,9 @@ const WorkButton = document.getElementById("nav-work");
 const myWork = document.getElementById("my-work");
 const aboutMeButton = document.getElementById("nav-about")
 const learnButton = document.getElementById("learn-btn");
-const aboutMe = document.getElementById("about-me")
+const aboutMe = document.getElementById("about-me");
+const scrollToTopBtn = document.getElementById("scroll-to-top-btn");
+const indexNav = document.getElementById("index-nav");
 
 checkButton.addEventListener("click", function() {
     myWork.scrollIntoView({ behavior: "smooth" });
@@ -21,6 +23,10 @@ learnButton.addEventListener("click", function() {
 
 aboutMeButton.addEventListener("click", function() {
     aboutMe.scrollIntoView({ behavior: "smooth" });
+});
+
+scrollToTopBtn.addEventListener("click", function() {
+    indexNav.scrollIntoView({ behavior: "smooth" });
 });
 
 // Event handlers for Connect
@@ -50,6 +56,12 @@ for (const gitHubButton of gitHubButtons) {
 
 const divHacksImg = document.getElementById("divhacks");
 const divHacksCaption= document.getElementById("divhacks-caption");
+const oracleImg = document.getElementById("oracle");
+const oracleCaption= document.getElementById("oracle-caption");
+const bttaiImg = document.getElementById("bttai");
+const bttaiCaption= document.getElementById("bttai-caption");
+const nlpImg = document.getElementById("nlp");
+const nlpCaption= document.getElementById("nlp-caption");
 
 divHacksImg.addEventListener("click", function() {
     window.location.href = "divhacks.html";
@@ -57,4 +69,29 @@ divHacksImg.addEventListener("click", function() {
 
 divHacksCaption.addEventListener("click", function() {
     window.location.href = "divhacks.html";
+});
+
+
+oracleImg.addEventListener("click", function() {
+    window.location.href = "oracle.html";
+});
+
+oracleCaption.addEventListener("click", function() {
+    window.location.href = "oracle.html";
+});
+
+bttaiImg.addEventListener("click", function() {
+    window.location.href = "bttai.html";
+});
+
+bttaiCaption.addEventListener("click", function() {
+    window.location.href = "bttai.html";
+});
+
+nlpImg.addEventListener("click", function() {
+    window.location.href = "nlp.html";
+});
+
+nlpCaption.addEventListener("click", function() {
+    window.location.href = "nlp.html";
 });

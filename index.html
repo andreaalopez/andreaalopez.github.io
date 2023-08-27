@@ -12,13 +12,13 @@
 
     <body>
 
-        <nav class="navbar">
+        <nav class="navbar" id="index-nav">
             <div class="navbar-left">
                 <a href="index.html" class="navbar-andrea">Andrea López</a>
             </div>
             <div class="navbar-right">
                 <span class="navbar-link" id="nav-work">Work</span>
-                <a href="#resume" class="navbar-link">Resume</a>
+                <a href="resume.pdf" class="navbar-link">Resume</a>
                 <span class="navbar-link" id="nav-about">About Me</span>
             </div>
         </nav>
@@ -27,11 +27,11 @@
             <div class="grow1">
                 <h1>Hi there! &#128075 I'm Andrea.</h1>
                 <p>Welcome to my website, which I built from scratch! &#129303</p>
-                <p>I'm a rising junior at <span class="barnard">Barnard College</span> of <span class="columbia">Columbia University</span>
+                <p>I'm a rising junior at <a href="https://barnard.edu" class="barnard">Barnard College</a> of <a href="https://columbia.edu" class="columbia">Columbia University</a>
                     studying Computer Science. &#128187</p>
                 <p>I'm passionate about using technology and data to understand and elevate the human experience. &#10024</p>
-                <p>Currently, I am a Data Science Intern at <span class="oracle-span">Oracle</span> in Seattle, WA.
-                    I'm also a Break Through Tech AI Fellow at <span class="cornell">Cornell Tech</span>.
+                <p>Currently, I am a Data Science Intern at <a href="https://www.oracle.com" class="oracle-span">Oracle</a> in Seattle, WA.
+                    I'm also a Break Through Tech AI Fellow at <a href="https://tech.cornell.edu/impact/break-through-tech/break-through-ai/" class="cornell">Cornell Tech</a>.
                 </p>
             </div>
         </section>
@@ -54,33 +54,47 @@
 
         <section id="my-work">
             <div class="grow-work" >
-                <div class="work-img" id="oracle"></div>
+                <img src="images/oracle.png" class="work-img" id="oracle" alt="Oracle">
                 <div class="work-caption" id="oracle-caption">
                     <h3><span>Oracle Data Science Internship</span> — Summer 2023</h3>
                      <p>Analyzed mass amounts of user-generated data to detect bots.</p>
                 </div>
             </div>
             <div class="grow-work">
-                <div class="work-img" id="nlp"></div>
+                <img src="images/columbia.png" class="work-img" id="nlp" alt="Columbia University">
                 <div class="work-caption" id="nlp-caption">
                     <h3><span>Natural Language Processing Research</span> — Summer 2022</h3>
                     <p>Analyze lexical and acoustic-prosodic features of speech to detect and generate empathetic voice.</p>
                 </div>
             </div>
             <div class="grow-work">
-                <div class="work-img" id="bttai"></div>
+                <img src="images/bttai.png" class="work-img" id="bttai" alt="Break Through Tech AI">
                 <div class="work-caption" id="bttai-caption">
                     <h3><span>Break Through Tech AI Fellowship at Cornell Tech</span> — Summer 2023-Spring 2024</h3>
                     <p>An applied machine learning course and a project at the United Nations International Computing Centre.</p>
                 </div>
             </div>
             <div class="grow-work">
-                <div class="work-img" id="divhacks"></div>
+                <img src="images/divhacks.png" class="work-img" id="divhacks" alt="DivHacks">
                 <div class="work-caption" id="divhacks-caption">
                     <h3><span>DivHacks 2022 Winner: Connect Puerto Rico</span></h3>
                     <p>A website focused on disaster relief in Puerto Rico.</p>
                 </div>
             </div>
+            <!-- <div class="grow-work" >
+                <img src="images/unicc.png" class="work-img" id="unicc" alt="UNICC">
+                <div class="work-caption" id="unicc-caption">
+                    <h3><span>United Nations International Computing Center</span> — Fall 2023</h3>
+                     <p>Implemented a misinformation detection model.</p>
+                </div>
+            </div>
+            <div class="grow-work" >
+                <img src="images/codepath.png" class="work-img" id="codepath" alt="CodePath">
+                <div class="work-caption" id="codepath-caption">
+                    <h3><span>CodePath</span> — Fall 2023</h3>
+                     <p>Web development course.</p>
+                </div>
+            </div> -->
         </section>
 
         <section class="go-to">
@@ -110,6 +124,12 @@
                 <img src="images/headshot.jpg" alt="Photo of me" id="headshot">
             </div>
         </section>
+
+        <div class="scroll-to-top">
+            <button class="scroll-btn" id="scroll-to-top-btn">
+                <img id="down-arrow" src="images/up-arrow.png" alt="Scroll to top">
+            </button>
+        </div>
 
         <section class="lets-connect">
             <div class="connect-line">Let's connect!</div>

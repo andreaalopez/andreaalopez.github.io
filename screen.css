@@ -58,7 +58,7 @@ body {
     padding: 100px;
     padding-top: 60px;
     padding-bottom: 0px;
-    max-width: 50%;
+    max-width: 700px;
 }
   
 .grow1 {
@@ -73,18 +73,26 @@ body {
 
 .barnard {
     color:rgb(20, 49, 137);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .columbia {
     color: rgb(143, 217, 255);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .oracle-span {
     color: rgba(243, 14, 14, 0.967);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .cornell {
     color: rgb(183, 24, 43);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .grow1 p {
@@ -176,6 +184,7 @@ h2 {
     flex-wrap: wrap;
     padding: 75px;
     max-width: 100%;
+    
 }
 
 .grow-work {
@@ -211,42 +220,20 @@ h2 {
 
 .work-img {
     flex: 1;
-    padding: 1%;
+    /* padding: 1%; */
     text-align: center;
     font-size: larger;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     width: 500px;
     height: 290px;
+    background-size: cover;
+    background-position: center center;
 }
 
 .work-img:hover {
     cursor: pointer;
     box-shadow: 0px 4px 8px rgb(255, 33, 152);
-}
-
-#oracle {
-    background-image: url("images/oracle.png");
-    background-size: cover;
-    background-position: center center;
-}
-
-#bttai {
-    background-image: url("images/bttai.png");
-    background-size: cover;
-    background-position: center center;
-}
-
-#nlp {
-    background-image: url("images/columbia.png");
-    background-size: cover;
-    background-position: center center;
-}
-
-#divhacks {
-    background-image: url("images/divhacks.png");
-    background-size: cover;
-    background-position: center center;
 }
 
 /* About Me */
@@ -288,6 +275,17 @@ h2 {
     border-radius: 50%;
     max-width: 350px;
     max-height: 350px;
+}
+
+.scroll-to-top {
+    padding: 50px;
+}
+
+#scroll-to-top-btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 80%;
+    border-radius: 50%;
 }
 
 /* Footer */
@@ -350,11 +348,12 @@ h2 {
     justify-content: center;
     align-items: center;
     padding: 100px;
-    padding-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #divhacks-intro {
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 
 .grow4 h1 {
@@ -362,14 +361,14 @@ h2 {
 }
 
 .grow4 h2 {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .grow4 {
     flex: 1;
     text-align: center;
     font-size: larger;
-    max-width: 50%;
+    max-width: 75%;
 }
 
 .divhacks-pics {
@@ -379,8 +378,9 @@ h2 {
     align-items: center;
     padding: 100px;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     max-width: 100%;
+
 }
 
 .dh-pic {
@@ -398,4 +398,36 @@ h2 {
 
 #dh-connect-pr {
     max-width: 100%;
+}
+
+.prev-next {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: grey;
+}
+
+.prev {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items:center;
+    gap: 10px;
+}
+
+.next {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    align-items:center;
+    gap: 10px;
+}
+
+.prev-next-arrow {
+    width: 15px;
+    height: 30px;
 }
