@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Work: Oracle</title>
+        <title>My Work > Oracle</title>
         <link rel="stylesheet" href="screen.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +20,107 @@
             </div>
         </nav>
 
-        <section class="main">
-            <div class="grow1">
-                <p>Coming soon! &#129323</p>
+        <section class="divhacks-content">
+            <div class="grow4">
+                <h1>Data Science Internship at Oracle</h1>
+                <p>I spent Summer 2023 in Seattle, WA, as a Data Science Intern at Oracle on their Design team.
+                    My project focused on analyzing user click log data to detect robotic automation processes (RPAs).
+                </p>
             </div>
         </section>
+
+        <section class="divhacks-pics">
+            <div class="dh-pic">
+                <img src="images/oracle-first-day.jpeg" alt="All the interns on our first day" id="oracle-first-day-img">
+            </div>
+            <div class="dh-pic">
+                <img src="images/bbq.JPG" alt="The interns at a barbecue event" id="jenny-bbq-img">
+            </div>
+        </section>
+
+        <section class="divhacks-content">
+            <div class="grow4">
+                <h2>My Project</h2>
+                <p>I was fortunate to work on a fascinating project that perfectly aligned with my
+                    passion for using data science to understand real human experiences. Not only that,
+                    but my project will continue beyond my internship and the team will incorporate my
+                    contributions into their ongoing work. I was tasked with analyzing mass amounts of
+                    user-generated click log telemetry data to detect RPAs interacting with Oracle enterprise
+                    software, distinguish RPA behavior from human behavior, and try to understand why customers
+                    may be using RPAs.</p>
+                <p>RPAs are commonly known as bots. The word "bot" has a negative connotation, but not all bots are malicious.
+                    Bots are simply an automated online process, often meant to automate a tedious task that a human would otherwise have to do.
+                    In fact, around 1/3 of all Internet traffic is bots.
+                </p>
+                <h2>My Contribution</h2>
+                <p>I discovered a type of robotic automated behavior and built a pipeline in Python to clean the data, engineer features,
+                    find common click patterns within sessions, visualize them, and identify this type of RPA behavior.
+                </p>
+                <p>My project is relevant to the Design team becauase if users are frequently automating tasks, it may be an opportunity
+                    for the designers to redesign those interfaces to make those tasks easier or automated.</p>
+                <!-- <p>Check out my presentation below!</p> -->
+            </div>
+        </section>
+
+        <!-- <section class="divhacks-pics">
+            <div class="dh-pic">
+                <p>Embed powerpoint</p>
+            </div>
+        </section> -->
+
+        <section class="divhacks-content">
+            <div class="grow4">
+                <h2>The Process</h2>
+                <p>The technologies I used for this project are Python, Pandas, NumPy, Seaborn, and Matplotlib.</p>
+                <ul>
+                    <li>I began by researching the context of the problem: robotic automation processes and how their
+                    online behavior differs from humans.</li>
+                    <li>I then cleaned the dataset.</li>
+                    <li>Then I exploreed the dataset, looking at the distribution of certain features of the dataset
+                        and found many outliers.</li>
+                    <li>I chose some indicators of RPA behavior: rapid clicking, abnormally long session, and abnormally large
+                        number of windows or browser tabs.</li>
+                    <li>I chose one user session to investigate further which was a far outlier in all three of these features.
+                        My mentors had me focus on one session first in order to get a very low-level understanding and then
+                        generalize my findings to all sessions.</li>
+                    
+                </ul>
+
+                <!-- <p>Check out my code below!</p> -->
+            </div>
+        </section>
+
+        <!-- <section class="divhacks-pics">
+            <div class="dh-pic">
+                <p>Embed powerpoint</p>
+            </div>
+        </section> -->
+
+        <section class="divhacks-content">
+            <div class="grow4">
+                <h2>What I Learned</h2>
+                <p>I have honed my skills in data cleaning, exploratory data analysis,
+                    data visualization, and UX research. But beyond these technical skills,
+                    I’ve gained a skill that’s just as vital: the ability to explain complex technical
+                    concepts to a non-technical audience, a must for any data scientist. Additionally,
+                    by working with users’ click data and actively thinking about their experience,
+                    I learned to look beyond the numbers to understand the experience of the human behind
+                    them — the “story” behind the data. Because this was a research project,
+                    I also learned to be curious and skeptical. Before I could convince anyone else that I
+                    had found bots, I wanted to convince myself entirely.
+                    I am very grateful for the interdisciplinary experience
+                    I had in my role in the intersection of data science and design.</p>
+            </div>
+        </section>
+
+        <section class="lets-connect">
+            <div class="connect-line">Let's connect!</div>
+            <div class="connect-links">
+                <button class="connect-button linkedin-btn"></button>
+                <button class="connect-button email-btn"></button>
+                <button class="connect-button github-btn"></button>
+            </div>
+        </section>
+
     </body>
 </html>

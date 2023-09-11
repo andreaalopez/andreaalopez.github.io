@@ -95,3 +95,19 @@ nlpImg.addEventListener("click", function() {
 nlpCaption.addEventListener("click", function() {
     window.location.href = "nlp.html";
 });
+
+// Event handlers for previous and next
+
+const prevNLP = document.getElementById("prev-nlp");
+const nextOracle = document.getElementById("next-oracle");
+
+
+prevNLP.addEventListener("click", function() {
+    window.location.href = "nlp.html";
+});
+
+nextOracle.addEventListener("click", function() {
+    window.location.href = "oracle.html";
+});
+
+
