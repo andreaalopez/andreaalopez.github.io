@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>My Personal Website</title>
+        <title>Andrea Lopez</title>
         <link rel="stylesheet" href="screen.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,28 +18,28 @@
             </div>
             <div class="navbar-right">
                 <span class="navbar-link" id="nav-work">Work</span>
-                <a href="resume.pdf" class="navbar-link">Resume</a>
+                <a href="content/resume.pdf" class="navbar-link">Resume</a>
                 <span class="navbar-link" id="nav-about">About Me</span>
             </div>
         </nav>
 
-        <section class="main">
+        <div class="main">
             <div class="grow1">
                 <h1>Hi there! &#128075 I'm Andrea.</h1>
                 <p>Welcome to my website, which I built from scratch! &#129303</p>
-                <p>I'm a rising junior at <a href="https://barnard.edu" class="barnard">Barnard College</a> of <a href="https://columbia.edu" class="columbia">Columbia University</a>
+                <p>I'm a junior at <a href="https://barnard.edu" class="barnard">Barnard College</a> of <a href="https://columbia.edu" class="columbia">Columbia University</a>
                     studying Computer Science. &#128187</p>
                 <p>I'm passionate about using technology and data to understand and elevate the human experience. &#10024</p>
-                <p>Currently, I'm taking Artificial Intelligence, Computer Architecture, Applied Machine Learning, Statistical Inference, and Accounting & Finance at Columbia.
-                    I'm also a <a href="https://www.codepath.org" class="codepath">CodePath</a> Fellow taking their Intermediate Web Development course.
+                <p>Currently, I'm taking Computer Science Theory, Natural Language Processing, User Interface Design, and
+                    Policy for Privacy Technologies at Columbia. I'm also a TA for Fundamentals of Computer Systems, a required
+                    course for all CS majors at Columbia. &#129299</p>
                 </p>
                 <p>
-                    I'm also a Break Through Tech AI Fellow at <a href="https://tech.cornell.edu/impact/break-through-tech/break-through-ai/" class="cornell">Cornell Tech</a>
-                    working on a misinformation detection model for the <a href="https://www.unicc.org" class="unicc-span">United Nations International Computing Center</a>.
-                    This past summer, I was a Data Science Intern at <a href="https://www.oracle.com" class="oracle-span">Oracle</a> in Seattle, WA.
+                    Last summer, I was a Data Science Intern at <a href="https://www.oracle.com" class="oracle-span">Oracle</a> in Seattle, WA.
+                    Next summer I will be a Software Engineering Intern at <a href="https://www.palantir.com" class="palantir-span">Palantir</a> in New York, NY.
                 </p>
             </div>
-        </section>
+        </div>
 
         <div class="connect-links-top">
             <button class="connect-button linkedin-btn"></button>
@@ -48,16 +48,16 @@
         </div>
 
 
-        <section class="go-to">
+        <div class="go-to">
             <div class="grow2">
                 <button class="scroll-btn" id="check-btn">
                     <p>Check out my work</p>
                     <img id="down-arrow" src="images/down-arrow.png" alt="Click to check out my work.">
                 </button>
             </div>
-        </section>
+        </div>
 
-        <section id="my-work">
+        <div id="my-work">
             <div class="grow-work" >
                 <img src="images/oracle.png" class="work-img" id="oracle" alt="Oracle">
                 <div class="work-caption" id="oracle-caption">
@@ -86,32 +86,39 @@
                     <p>A website focused on disaster relief in Puerto Rico.</p>
                 </div>
             </div>
-            <!-- <div class="grow-work" >
-                <img src="images/unicc.png" class="work-img" id="unicc" alt="UNICC">
+            <div class="grow-work" >
+                <img src="images/unicc.jpg" class="work-img" id="unicc" alt="UNICC">
                 <div class="work-caption" id="unicc-caption">
                     <h3><span>United Nations International Computing Center</span> — Fall 2023</h3>
                      <p>Implemented a misinformation detection model.</p>
                 </div>
             </div>
             <div class="grow-work" >
+                <img src="images/hackmit.png" class="work-img" id="hackmit" alt="HackMIT">
+                <div class="work-caption" id="hackmit-caption">
+                    <h3><span>HackMIT 2023: Pantry Puzzle</span></h3>
+                     <p>A website which uses the OpenAI API to suggest recipes people can create using ingredients they already have.</p>
+                </div>
+            </div>
+            <!-- <div class="grow-work" >
                 <img src="images/codepath.png" class="work-img" id="codepath" alt="CodePath">
                 <div class="work-caption" id="codepath-caption">
                     <h3><span>CodePath</span> — Fall 2023</h3>
                      <p>Web development course.</p>
                 </div>
             </div> -->
-        </section>
+        </div>
 
-        <section class="go-to">
+        <div class="go-to">
             <div class="grow2">
                 <button class="scroll-btn" id="learn-btn">
                     <p>Learn more about me</p>
                     <img id="down-arrow" src="images/down-arrow.png" alt="Click to check out my work.">
                 </button>
             </div>
-        </section>
+        </div>
 
-        <section id="about-me">
+        <div id="about-me">
             <div class="grow-about">
                 <h1>About Me</h1>
                 <p>My name is Andrea Lopez (she/her) and I'm a junior at <span class="barnard">Barnard College</span>
@@ -119,17 +126,17 @@
                     I am Puerto Rican &#127477&#127479 and I was born and raised in Monmouth County, New Jersey. 
                     I love coding, problem-solving, and learning new skills.
                 </p>
-                <p>In my free time, I love listening to music &#127911 dancing &#128131 and going to concerts! &#127926 
-                    My all-time dream artist to see in concert is Beyoncé — I'm seeing her in October and I'm so excited! &#129325 
+                <p>In my free time, I love listening to music &#127911 playing card games &#127183 and going to concerts! &#127926 
+                    My next concert is Bad Bunny in April — I'm so excited! &#129325 
                     I also love traveling &#9992&#65039 and exploring new places! &#127961 While I'm at school I love to explore New York &#128509
-                    and this summer I got to explore Seattle, San Francisco, Austin, Dallas, Chicago, Yellowstone National Park, and Grand Teton
+                    and last summer I got to explore Seattle, San Francisco, Austin, Dallas, Chicago, Yellowstone National Park, and Grand Teton
                     National Park! &#127745 &#127966
                 </p>
             </div>
             <div class="grow-headshot">
                 <img src="images/headshot.jpg" alt="Photo of me" id="headshot">
             </div>
-        </section>
+        </div>
 
         <div class="scroll-to-top">
             <button class="scroll-btn" id="scroll-to-top-btn">
@@ -137,14 +144,14 @@
             </button>
         </div>
 
-        <section class="lets-connect">
+        <div class="lets-connect">
             <div class="connect-line">Let's connect!</div>
             <div class="connect-links">
                 <button class="connect-button linkedin-btn"></button>
                 <button class="connect-button email-btn"></button>
                 <button class="connect-button github-btn"></button>
             </div>
-        </section>
+        </div>
 
         <script src="index.js"></script>
     </body>

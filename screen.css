@@ -58,13 +58,13 @@ body {
     padding: 100px;
     padding-top: 45px;
     padding-bottom: 0px;
-    max-width: 700px;
+    max-width: 1000px;
 }
   
 .grow1 {
     flex: 1;
     text-align: left;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .grow1 span {
@@ -85,6 +85,12 @@ body {
 
 .oracle-span {
     color: rgba(243, 14, 14, 0.967);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.palantir-span {
+    color: black;
     text-decoration: none;
     font-weight: bold;
 }
@@ -354,14 +360,10 @@ h2 {
 
 /* DivHacks */
 
-.divhacks-content {
+.work-content {
     display: flex;
-    gap: 16px;
     justify-content: center;
     align-items: center;
-    padding: 100px;
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
 
 #divhacks-intro {
@@ -379,8 +381,8 @@ h2 {
 .grow4 {
     flex: 1;
     text-align: center;
-    font-size: larger;
-    max-width: 75%;
+    font-size: large;
+    max-width: 500px;
 }
 
 .divhacks-pics {
@@ -450,4 +452,62 @@ h2 {
 .prev-next-arrow {
     width: 15px;
     height: 30px;
+}
+
+/* Oracle */
+
+.oracle-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grow-oracle {
+    flex: 1;
+    text-align: center;
+    font-size: large;
+    max-width: 500px;
+}
+
+.grow-oracle h1 {
+    font-size: 75px;
+}
+
+.grow-oracle h2 {
+    font-size: 35px;
+}
+
+.grow-oracle li {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.bottom-oracle {
+    margin-bottom: 50px;
+}
+
+/* NLP */
+
+.poster {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    margin: 50px auto 50px auto;
+}
+
+.work-header {
+    font-size: 40px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+/* BTTAI */
+
+.grow4 h3 {
+    color: grey;
+    margin: 0;
+}
+
+.pic {
+    max-width: 100%;
 }
