@@ -4,7 +4,7 @@ import { Card } from '../components/Card';
 export const WorkSection = () => (
     <div>
         <div className="text-left">
-            <h1 className="text-2xl font-bold py-6">Work</h1>
+            <h1 className="text-2xl font-bold py-6">Experience</h1>
             <div className="flex flex-col gap-6">
                 <Card
                     title="Software Engineer Intern"
@@ -24,6 +24,16 @@ export const WorkSection = () => (
                     location="New York, NY"
                     img="columbia-logo.png"
                     href="https://www.cs.columbia.edu"
+                />
+                <Card
+                    title="Break Through Tech AI Fellow"
+                    company="Cornell Tech"
+                    description="ML foundations course, career coaching, mentorship, and projects."
+                    date="Jun 2023-May 2024"
+                    location="New York, NY"
+                    img="bttai-logo.jpeg"
+                    skills={["Python", "Pandas", "NumPy", "Matplotlib", "Scikit-learn"]}
+                    href="https://www.breakthroughtech.org/programs/the-ai-program/"
                 />
                 <Card
                     title="Data Science Intern"
@@ -100,17 +110,23 @@ export const WorkSection = () => (
         </div>
 
         <div className="text-left">
-            <h1 className="text-2xl font-bold py-6">Other Experiences</h1>
+            <h1 className="text-2xl font-bold py-6">Community Involvement</h1>
             <div className="flex flex-col gap-6">
                 <Card
-                    title="Break Through Tech AI Fellowship"
-                    company="Cornell Tech"
-                    description="ML foundations course, career coaching, mentorship, and projects."
-                    date="Jun 2023-May 2024"
-                    location="New York, NY"
-                    img="bttai-logo.png"
-                    skills={["Python", "Pandas", "NumPy", "Matplotlib", "Scikit-learn"]}
-                    href="https://www.breakthroughtech.org/programs/the-ai-program/"
+                    title="Member"
+                    company="ColorStack"
+                    description="An amazing community of Black, Hispanic, and Indigenous students in tech."
+                    date="May 2023-Present"
+                    img="colorstack-logo.png"
+                    href="https://www.colorstack.org"
+                />
+                <Card
+                    title="Mentor"
+                    company="HeadStart"
+                    description="Mentored a freshman computer science student."
+                    date="Jan-May 2024"
+                    img="headstart-logo.png"
+                    href="https://www.headstartfellowship.com"
                 />
             </div>
         </div>
