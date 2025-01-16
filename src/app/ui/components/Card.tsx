@@ -7,7 +7,6 @@ interface CardProps {
     img?: string;
     skills?: string[];
     href?: string;
-    onClick?: () => void;
     className?: string;
 }
 
@@ -20,7 +19,6 @@ export const Card = ({
     skills,
     img,
     href,
-    onClick,
     className,
 }: CardProps) => {
     return (
