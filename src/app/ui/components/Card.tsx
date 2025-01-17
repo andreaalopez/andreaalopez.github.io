@@ -1,3 +1,6 @@
+import React from 'react';
+import Image from 'next/image';
+
 interface CardProps {
     title: string;
     company?: string;
@@ -12,7 +15,7 @@ interface CardProps {
 
 export const Card = ({
     title,
-    company,
+    company = "",
     description,
     date,
     location,
@@ -26,7 +29,7 @@ export const Card = ({
             <div className={`flex flex-col p-4 overflow-hidden rounded-xl bg-white dark:bg-slate-900 border-gray-100 dark:border-slate-800 border-2 hover:border-4 hover:border-pink-100 duration-300 ${className}`}>
                 <div className="py-1 flex flex-row">
                     {img && (
-                        <img src={img} alt={company} className="h-10 w-10 object-cover rounded-lg self-center mr-4" />
+                        <Image src={img} alt={company} width={40} height={40} className="object-cover rounded-lg self-center mr-4" />
                     )}
                     <div className="self-center">
                         <h3 className="text-xl font-bold">{title}</h3>

@@ -12,7 +12,7 @@ export const WorkSection = () => (
                     description="Frontend engineer on the infrastructure team."
                     date="May-Aug 2024"
                     location="New York, NY"
-                    img="palantir-logo.png"
+                    img="/palantir-logo.png"
                     skills={["React", "TypeScript", "Grafana"]}
                     href="https://www.palantir.com"
                 />
@@ -22,7 +22,7 @@ export const WorkSection = () => (
                     description="TA for Fundamentals of Computer Systems class."
                     date="Jan-May 2024"
                     location="New York, NY"
-                    img="columbia-logo.png"
+                    img="/columbia-logo.png"
                     href="https://www.cs.columbia.edu"
                 />
                 <Card
@@ -31,9 +31,9 @@ export const WorkSection = () => (
                     description="ML foundations course, career coaching, mentorship, and projects."
                     date="Jun 2023-May 2024"
                     location="New York, NY"
-                    img="bttai-logo.jpeg"
+                    img="/bttai-logo.jpeg"
                     skills={["Python", "Pandas", "NumPy", "Matplotlib", "Scikit-learn"]}
-                    href="https://www.breakthroughtech.org/programs/the-ai-program/"
+                    href="/work/bttai"
                 />
                 <Card
                     title="Data Science Intern"
@@ -41,9 +41,9 @@ export const WorkSection = () => (
                     description="Data science and UX research on the design team."
                     date="May-Aug 2023"
                     location="Seattle, WA"
-                    img="oracle-logo.png"
+                    img="/oracle-logo.png"
                     skills={["Python", "Pandas", "NumPy", "Seaborn", "Matplotlib"]}
-                    href="https://www.oracle.com"
+                    href="/work/oracle"
                 />
                 <Card
                     title="Natural Language Processing Researcher"
@@ -51,7 +51,7 @@ export const WorkSection = () => (
                     description="Worked at Julia Hirschberg's Natural Language Processing lab. Funded by the Barnard College Summer Research Institute."
                     date="May-Aug 2022"
                     location="New York, NY"
-                    img="columbia-logo.png"
+                    img="/columbia-logo.png"
                     skills={["Python"]}
                     href="https://www.cs.columbia.edu/speech/"
                 />
@@ -80,7 +80,7 @@ export const WorkSection = () => (
                     company="United Nations International Computing Centre"
                     description="Implemented a machine learning model to detect misinformation about polio vaccines on social media."
                     date="Sep-Dec 2023"
-                    img="unicc-logo.jpg"
+                    img="/unicc-logo.jpg"
                     skills={["Python", "Scikit-learn", "NLTK", "Pandas", "NumPy"]}
                 />
                 <Card title="Pantry Puzzle"
@@ -117,7 +117,7 @@ export const WorkSection = () => (
                     company="ColorStack"
                     description="An amazing community of Black, Hispanic, and Indigenous students in tech."
                     date="May 2023-Present"
-                    img="colorstack-logo.png"
+                    img="/colorstack-logo.png"
                     href="https://www.colorstack.org"
                 />
                 <Card
@@ -125,7 +125,7 @@ export const WorkSection = () => (
                     company="HeadStart"
                     description="Mentored a freshman computer science student."
                     date="Jan-May 2024"
-                    img="headstart-logo.png"
+                    img="/headstart-logo.png"
                     href="https://www.headstartfellowship.com"
                 />
             </div>
