@@ -7,7 +7,7 @@ export const WorkSection = () => (
             <h1 className="text-2xl font-bold py-6">Experience</h1>
             <div className="flex flex-col gap-6">
             <Card
-                    title="Software Engineer Intern"
+                    title="Software Engineer"
                     company="Palantir"
                     description="Backend engineer on an infrastructure team."
                     date="Sep 2025-Present"
