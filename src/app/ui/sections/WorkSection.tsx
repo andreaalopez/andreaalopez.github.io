@@ -6,10 +6,20 @@ export const WorkSection = () => (
         <div className="text-left">
             <h1 className="text-2xl font-bold py-6">Experience</h1>
             <div className="flex flex-col gap-6">
+            <Card
+                    title="Software Engineer Intern"
+                    company="Palantir"
+                    description="Backend engineer on an infrastructure team."
+                    date="Sep 2025-Present"
+                    location="New York, NY"
+                    img="palantir-logo.png"
+                    skills={["Java", "Go", "Docker", "Kubernetes", "Grafana", "Prometheus"]}
+                    href="https://www.palantir.com"
+                />
                 <Card
                     title="Software Engineer Intern"
                     company="Palantir"
-                    description="Frontend engineer on the infrastructure team."
+                    description="Frontend engineer on an infrastructure team."
                     date="May-Aug 2024"
                     location="New York, NY"
                     img="palantir-logo.png"
